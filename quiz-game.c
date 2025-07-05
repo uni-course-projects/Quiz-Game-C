@@ -14,9 +14,10 @@ void displayQuestion(Question q) {
     for (int i = 0; i < 4; i++) {
         printf("%s\n", q.options[i]);
     }
+
 }
 
-// Function to get user's answer
+// Function to get user's answerr
 char getUserAnswer() {
     char input[10];
     printf("Enter your choice (A, B, C, or D): ");
