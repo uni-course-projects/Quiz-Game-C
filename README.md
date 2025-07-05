@@ -15,7 +15,7 @@ Course: *Introduction to Computer Science (ITC)*
 
 ---
 
-## 🧠 Features
+## Features
 
 - ✅ 4-option multiple choice questions  
 - ✅ Case-insensitive answer comparison  
@@ -26,7 +26,7 @@ Course: *Introduction to Computer Science (ITC)*
 
 ---
 
-## 🔧 Tools & Configuration
+## Tools & Configuration
 
 - **Language**: C  
 - **Original IDE**: Code::Blocks  
@@ -35,10 +35,6 @@ Course: *Introduction to Computer Science (ITC)*
 - **Task Runner**: VS Code `tasks.json`  
 
 ---
-
-## 📊 Documentation
-
-Presentation slides for this project are included in the `docs/` folder:
 
 ## 🛠️ How to Compile & Run
 
@@ -53,6 +49,7 @@ Presentation slides for this project are included in the `docs/` folder:
 ### 🔹 Manually via Terminal
 
 gcc quiz-game.c -o quiz-game
+
 ./quiz-game
 
 ---
