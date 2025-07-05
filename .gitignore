@@ -1,3 +1,5 @@
 quiz-game.exe
 .vscode/*
 !.vscode/tasks.json
+#dont include anything in .vscode except tasks.json
+
