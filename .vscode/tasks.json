@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build and Run Quiz Game",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "quiz-game.c",
+        "-o",
+        "quiz-game.exe",
+        "&&",
+        ".\\quiz-game.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/d", "/c"]
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
